@@ -1,0 +1,6 @@
+* linguist-vendored
+*.c linguist-vendored=false
+*.h linguist-vendored=false
+*.c linguist-language=CSS
+*.h linguist-language=CSS
+*.m linguist-language=CSS
