@@ -10252,8 +10252,18 @@ a.text-dark:hover, a.text-dark:focus {
   color:white;
 }
 
+.nav-link.bg-aeroblack:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+  transition-duration: 0.3s;
+}
+
 .nav-link.active.bg-aeroblack{
   background-color: rgba(0, 0, 0, 0.2);
   border: 0px !important;
   color:white;
+}
+
+.nav-link.active.bg-aeroblack:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+  transition-duration: 0.3s;
 }
