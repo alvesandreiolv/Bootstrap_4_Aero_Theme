@@ -10231,10 +10231,12 @@ a.text-dark:hover, a.text-dark:focus {
 
 
 
-
+.nav-tabs .nav-item {
+    margin-bottom: 0px;
+}
 
  .nav-tabs{
-  /*border-bottom: 0px !important;*/
+  border-bottom: 1px !important;
 }
 
 
@@ -10244,8 +10246,14 @@ a.text-dark:hover, a.text-dark:focus {
   color:white;
 }
 
+.nav-link.bg-aeroblack{
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 0px !important;
+  color:white;
+}
 
-.nav-tabs .nav-link.active .bg-aeroblack {
+.nav-link.active.bg-aeroblack{
   background-color: rgba(0, 0, 0, 0.2);
   border: 0px !important;
+  color:white;
 }
