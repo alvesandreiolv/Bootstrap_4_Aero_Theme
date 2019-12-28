@@ -1,3 +1,2 @@
-* linguist-vendored
-
-*.JavaScript linguist-language=.css
+*.js linguist-detectable=false
+*.css linguist-detectable=true
