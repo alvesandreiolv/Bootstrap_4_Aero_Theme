@@ -10258,6 +10258,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .nav-link.active.bg-aeroblack{
+
   background-color: rgba(0, 0, 0, 0.2);
   border: 0px !important;
   color:white;
@@ -10265,5 +10266,37 @@ a.text-dark:hover, a.text-dark:focus {
 
 .nav-link.active.bg-aeroblack:hover{
   background-color: rgba(0, 0, 0, 0.3);
+  transition-duration: 0.3s;
+}
+
+
+/*AEROWHITE BELLOW*/
+
+.bg-aerowhite {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 0px !important;
+  color:white;
+}
+
+.nav-link.bg-aerowhite{
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 0px !important;
+  color:white;
+}
+
+.nav-link.bg-aerowhite:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+  transition-duration: 0.3s;
+}
+
+.nav-link.active.bg-aerowhite{
+  
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 0px !important;
+  color:white;
+}
+
+.nav-link.active.bg-aerowhite:hover{
+  background-color: rgba(255, 255, 255, 0.3);
   transition-duration: 0.3s;
 }
