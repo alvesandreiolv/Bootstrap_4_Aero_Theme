@@ -4,6 +4,7 @@
 
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="bootstrapaero/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
 
 	<style type="text/css">
 		
@@ -52,9 +53,9 @@
 
 								</div>
 
-								<a class="nav-link text-white" id="v-pills-home-tab" data-toggle="pill" href="https://www.linkedin.com/in/neyelson-alves-0166bb124/" target="_blank" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="fa fa-home"></i>● LinkedIn</a>
-								<a class="nav-link text-white" id="v-pills-profile-tab" data-toggle="pill" href="https://github.com/Neyelson" target="_blank" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="fa fa-plus"></i>● Github</a>
-								<a class="nav-link text-white" id="v-pills-settings-tab" data-toggle="pill" href="https://facebook.com/neyelson" target="_blank" role="tab" aria-controls="v-pills-settings" aria-selected="false"><i class="fa fa-cog"></i>● Facebook</a>
+								<a class="nav-link bg-aeroblack text-white" href="https://www.linkedin.com/in/neyelson-alves-0166bb124/" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+								<a class="nav-link bg-aeroblack text-white"  href="https://github.com/Neyelson" target="_blank" ><i class="fa fa-github-square"></i> Github</a>
+								<a class="nav-link bg-aeroblack text-white" href="https://facebook.com/neyelson" target="_blank" ><i class="fa fa-facebook-official"></i> Facebook</a>
 
 							</div>
 
@@ -79,7 +80,7 @@
 							</li>
 
 							<li class="nav-item">
-								<a class="nav-link bg-aeroblack" href="#">Inglês</a>
+								<a class="nav-link bg-aeroblack" href="#">English</a>
 							</li>
 
 						</ul>
@@ -94,57 +95,74 @@
 
 								<hr>
 
-								<h5 class="card-title">Botões:</h5>
-								<p class="card-text">Ao aplicar o <b>"bg-aeroblack"</b> ou o <b>"bg-aerowhite"</b> nos botões, eles se tornarão transparentes. Ao passar o ponteiro do mouse por cima, os botões vão mostrar as suas respectivas cores originais.</p>
-								<a href="#" class="btn btn-warning bg-aeroblack">Warning bg-aeroblack</a> <a href="#" class="btn btn-primary bg-aerowhite">Primary bg-aerowhite</a>
-
-								<hr>
-
-								<h5 class="card-title">Cartões:</h5>
-								<p class="card-text">Ao aplicar o <b>"bg-aeroblack"</b> ou o <b>"bg-aerowhite"</b> nos cartões, eles se tornarão transparentes. Ao adicionar elementos Aero dentro de cartões, ou cartões dentro de cartões, tais elementos ficarão menos transparentes e mais realçados.</p>
+								<h5 class="card-title">Primeiros passos:</h5>
+								<p class="card-text">Para que haja um aproveitamento eficiente desse tema, é recomendável que seja respeitado alguns conceitos visuais específicos.</p>
+								<p class="card-text">As transparencias ficam visualmente muito agradéveis quando estão por cima de imagens como planos de fundo, principalmente imagens com o efeito <b>"blur"</b>. Esta página, por exemplo, já possui um plano de funco aplicado em seu elemento <b>"body"</b>. Há um pedaço de código abaixo que você pode utilizar para aplicar esse mesmo efeito facilmente.</p>
 								
-								<div class="card text-white bg-aeroblack mb-3" style=" float: left; margin-right: 7px;">
-									<div class="card-body">
-										<p class="card-text">Este é um cartão com o <br><b>"bg-aeroblack"</b> aplicado.</p>
+								<div class="card text-white bg-aeroblack mb-3" style=" padding:15px;">
+									body {<br>
+									background-image: url ( https://i.imgur.com/VPEH3zV.jpg ) ;<br>
+									background-color: grey ;<br>
+									background-size: 100% 100% ;<br>
+									background-attachment: fixed ;<br>
+									background-position: center ;
+								}
+								</div>
+							
+							
+							<hr>
 
-										<div class="card text-white bg-aeroblack mb-3" style=" float: left; margin-right: 7px;">
-											<div class="card-body">
-												<p class="card-text">Este é um cartão <br>dentro de outro cartão.</p>
-											</div>
+							<h5 class="card-title">Botões:</h5>
+							<p class="card-text">Ao aplicar o <b>"bg-aeroblack"</b> ou o <b>"bg-aerowhite"</b> nos botões, eles se tornarão transparentes. Ao passar o ponteiro do mouse por cima, os botões vão mostrar as suas respectivas cores originais.</p>
+							<a class="btn btn-warning bg-aeroblack">Warning bg-aeroblack</a> <a class="btn btn-primary bg-aerowhite">Primary bg-aerowhite</a>
+
+							<hr>
+
+							<h5 class="card-title">Cartões:</h5>
+							<p class="card-text">Ao aplicar o <b>"bg-aeroblack"</b> ou o <b>"bg-aerowhite"</b> nos cartões, eles se tornarão transparentes. Ao adicionar elementos Aero dentro de cartões, ou cartões dentro de cartões, tais elementos ficarão menos transparentes e mais realçados.</p>
+							
+							<div class="card text-white bg-aeroblack mb-3" style=" float: left; margin-right: 7px;">
+								<div class="card-body">
+									<p class="card-text">Este é um cartão com o <br><b>"bg-aeroblack"</b> aplicado.</p>
+
+									<div class="card text-white bg-aeroblack mb-3" style=" float: left; margin-right: 7px;">
+										<div class="card-body">
+											<p class="card-text">Este é um cartão <br>dentro de outro cartão.</p>
 										</div>
 									</div>
 								</div>
+							</div>
 
 
-								<div class="card text-white bg-aerowhite mb-3" style=" float: left; margin-right: 7px;">
-									<div class="card-body">
-										<p class="card-text">Este é um cartão com o <br><b>"bg-aerowhite"</b> aplicado.</p>
+							<div class="card text-white bg-aerowhite mb-3" style=" float: left; margin-right: 7px;">
+								<div class="card-body">
+									<p class="card-text">Este é um cartão com o <br><b>"bg-aerowhite"</b> aplicado.</p>
 
-										<div class="card text-white bg-aerowhite mb-3" style=" float: left; margin-right: 7px;">
-											<div class="card-body">
-												<p class="card-text">Este é um cartão <br>dentro de outro cartão.</p>
-											</div>
+									<div class="card text-white bg-aerowhite mb-3" style=" float: left; margin-right: 7px;">
+										<div class="card-body">
+											<p class="card-text">Este é um cartão <br>dentro de outro cartão.</p>
 										</div>
 									</div>
 								</div>
-
 							</div>
 
 						</div>
 
 					</div>
 
-					<div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-					<div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-					<div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
-
 				</div>
 
 			</div>
+			
+			<br>
+			<span class="text-white"><center>github.com/Neyelson</center></span>
+			<br>
 
 		</div>
 
 	</div>
+
+</div>
 
 </body>
 
