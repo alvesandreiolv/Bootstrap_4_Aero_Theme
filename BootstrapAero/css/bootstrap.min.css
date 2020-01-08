@@ -63,6 +63,34 @@ input[type="text"].bg-aeroblack:focus{
   color: white;
 }
 
+input[type="email"].bg-aeroblack{
+  color:white;
+}
+
+input[type="email"].bg-aeroblack:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+  color:white;
+}
+
+input[type="email"].bg-aeroblack:focus{
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+input[type="password"].bg-aeroblack{
+  color:white;
+}
+
+input[type="password"].bg-aeroblack:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+  color:white;
+}
+
+input[type="password"].bg-aeroblack:focus{
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
 .bg-aeroblack::-webkit-input-placeholder {
   color: white;
   opacity: 0.5;
@@ -90,6 +118,19 @@ input[type="text"].bg-aeroblack:focus{
 .custom-select.bg-aeroblack option{
   background-color: black;
   color: white;
+}
+
+.bg-aeroblack.table thead th {
+  background-color: rgba(0, 0, 0, 0.2);
+  border:0px;
+}
+
+.bg-aeroblack.table th {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.bg-aeroblack.table td {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 /*AEROWHITE ABAIXO | AEROWHITE BELLOW*/
@@ -136,6 +177,34 @@ input[type="text"].bg-aerowhite:focus{
   color:black;
 }
 
+input[type="email"].bg-aerowhite{
+  color:black;
+}
+
+input[type="email"].bg-aerowhite:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+  color:black;
+}
+
+input[type="email"].bg-aerowhite:focus{
+  background-color: rgba(255, 255, 255, 0.4);
+  color:black;
+}
+
+input[type="password"].bg-aerowhite{
+  color:black;
+}
+
+input[type="password"].bg-aerowhite:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+  color:black;
+}
+
+input[type="password"].bg-aerowhite:focus{
+  background-color: rgba(255, 255, 255, 0.4);
+  color:black;
+}
+
 .bg-aerowhite::-webkit-input-placeholder {
   color: black;
   opacity: 0.5;
@@ -163,4 +232,17 @@ input[type="text"].bg-aerowhite:focus{
 .custom-select.bg-aerowhite option{
   background-color: white;
   color: black !important;
+}
+
+.bg-aerowhite.table thead th {
+  background-color: rgba(255, 255, 255, 0.2);
+  border:0px;
+}
+
+.bg-aerowhite.table th {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.bg-aerowhite.table td {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
