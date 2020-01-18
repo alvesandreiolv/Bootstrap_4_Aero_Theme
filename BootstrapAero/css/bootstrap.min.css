@@ -91,6 +91,16 @@ input[type="password"].bg-aeroblack:focus{
   color: white;
 }
 
+textarea.bg-aeroblack:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+  color:white;
+}
+
+textarea.bg-aeroblack:focus{
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
 .bg-aeroblack::-webkit-input-placeholder {
   color: white;
   opacity: 0.5;
@@ -132,6 +142,8 @@ input[type="password"].bg-aeroblack:focus{
 .bg-aeroblack.table td {
   border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
+
+
 
 /*AEROWHITE ABAIXO | AEROWHITE BELLOW*/
 
@@ -201,6 +213,16 @@ input[type="password"].bg-aerowhite:hover{
 }
 
 input[type="password"].bg-aerowhite:focus{
+  background-color: rgba(255, 255, 255, 0.4);
+  color:black;
+}
+
+textarea.bg-aeroblack:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+  color:black;
+}
+
+textarea.bg-aeroblack:focus{
   background-color: rgba(255, 255, 255, 0.4);
   color:black;
 }
