@@ -217,12 +217,12 @@ input[type="password"].bg-aerowhite:focus{
   color:black;
 }
 
-textarea.bg-aeroblack:hover{
+textarea.bg-aerowhite:hover{
   background-color: rgba(255, 255, 255, 0.3);
   color:black;
 }
 
-textarea.bg-aeroblack:focus{
+textarea.bg-aerowhite:focus{
   background-color: rgba(255, 255, 255, 0.4);
   color:black;
 }
